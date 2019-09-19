@@ -1,0 +1,707 @@
+html{
+  scroll-behavior: smooth;
+}
+    /* body       */
+body{
+      padding:0;
+      margin:0;
+}
+               /* Heading section  */
+
+#header-section{
+  background-color: #E6E6E6;
+  border-bottom:3px solid #01913E;
+  margin: 0;
+}
+              /* Awkum logo Design        */
+.awkum-logo-img{
+  max-width: 120px;
+  margin:5px 0 5px 20px;
+  padding-top: 50px;
+}
+                /* page-title     */
+.page-title{
+      text-align: center;
+      padding-top: 50px;
+}
+.page-title-text{
+      color: #C1272D;
+      font-family: 'Merienda One', cursive;
+      font-size: 4rem;
+      padding:5px 30px;
+}
+            /* page title sub text  */
+.page-title-sub-text{
+  font-family: 'Merienda One', cursive;
+  letter-spacing: 14px;
+  word-spacing: 30px;
+  color: #01913E;
+}
+                        /* navigaion-bar    */
+.navigaion-bar{
+  background-color: #9B1516;
+  padding: 0;
+  position: fixed;
+  z-index: 2;
+}
+.navigaion-bar ul li a{
+  margin-left:60px;
+  font-size:1.2rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #E6E6E6;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.navigaion-bar ul li a:hover{
+  border-bottom: 3px solid #E6E6E6;
+  padding: 8px;
+}
+/* toggle-icon */
+.toggle-icon{
+  width: 64px;
+}
+#slide-container{
+  margin: 0;
+  border-bottom:3px solid #01913E;
+}
+/* arows-btn */
+.arows-btn{
+  width: 100px;
+}
+/* faculty-members */
+#faculty-members{
+  border-bottom:3px solid #01913E;
+  background-color: #E6E6E6;
+  margin: 0;
+}
+/* faculty-title */
+.faculty-title{
+  color: #9B1516;
+  font-family: 'Merienda One', cursive;
+  text-align: center;
+  padding: 54px 0;
+}
+/* faculty-profile */
+.faculty-profile{
+  color: #01913E;
+  text-align: center;
+  padding: 0;
+}
+/* faculty-img */
+.faculty-img{
+align-items: center;
+}
+/* department-brief */
+#department-brief{
+  border-bottom:3px solid #01913E;
+  background-color: #E6E6E6;
+  margin: 0;
+  padding: 30px 0;
+}
+/* department-brief-title */
+.department-brief-title{
+  color: #9B1516;
+  font-family: 'Merienda One', cursive;
+  text-align: center;
+  padding: 22px 0;
+}
+/* department-brief-text */
+.department-brief-text{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: justify;
+}
+/* department-courses-title */
+.department-courses-title{
+  color: #9B1516;
+  font-family: 'Merienda One', cursive;
+  text-align: center;
+  padding: 10px 0;
+}
+/* department-courses-text */
+.department-courses-text{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: justify;
+}
+/* department-careers-title */
+.department-careers-title{
+  color: #9B1516;
+  font-family: 'Merienda One', cursive;
+  text-align: left;
+  padding: 10px 0;
+}
+/* department-careers-text */
+.department-careers-text{
+  font-family: 'Ubuntu', sans-serif;
+  text-align: justify;
+}
+#footer{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  background-color: #01913E;
+  color: #E6E6E6;
+}
+.copyright-paraghraph{
+  margin: 20px 0;
+}
+/* CS careers page 1 */
+/*............................ student information form................................ */
+#student-information{
+background-color: #E6E6E6;
+text-align: center;
+margin: 0;
+}
+                       /* Heading of form */
+.student-text-h1{
+font-family: 'Merienda One', cursive;
+font-size: 3rem;
+margin: 15px 0px 30px 0px;
+color: #9B1516;
+}
+.btn-submit{
+  background-color: #01913E;
+  color: #E6E6E6;
+}
+.btn-submit:hover{
+  color: #E6E6E6;
+}
+/* CS careers page 2 */
+/* ...........................................................option selector section .................................................................... */
+#student-information-sheet-title{
+  background-color: #E6E6E6;
+	text-align: center;
+  margin: 0;
+	}
+        /* heading of the section */
+.name-section-text{
+	font-size: 1.5rem;
+  font-family: 'Merienda One', cursive;
+  color: #9B1516;
+  margin-bottom: 0px;
+  padding: 10px 0px 0px 0px;
+}
+	/*************option section for content************* */
+#option-section{
+	background-color: #E6E6E6;
+	padding-bottom: 30px;
+  margin: 0;
+}
+.option{
+	text-align: center;
+	margin-top: 30px;
+}
+	/*	css setting of the button */
+.option button{
+	width: 150px;
+	height: 40px;
+	background-color: #9B1516;
+	outline: none;
+	color: #E6E6E6;
+	border-radius: 10px;
+	border:3px solid #01913E;
+	transform: scale(1);
+  font-family: 'Ubuntu', sans-serif;
+}
+.option button a{
+	text-decoration: none;
+	color: white;
+}
+			/*button effect when mouse over*/
+.option button:hover{
+	background-color: #E6E6E6;
+	color: black;
+	border:3px solid #9B1516;
+	border-radius: 30px;
+	transform: scale(1.1);
+}
+		/*	hover effect when the mouse is over*/
+.option button:hover a{
+	color: black;
+}
+@media screen and (max-width:1024px) and (min-width:786px)
+{
+.page-title-text{
+  font-size: 3.5rem;
+}
+.page-title-sub-text{
+  font-size:1.5rem;
+   }
+.navigaion-bar ul li a{
+  font-size:1.2rem;
+   }
+}
+@media screen and (max-width:768px) and (min-width:578px)
+{
+  .page-title{
+        padding-top: 0;
+  }
+  .page-title-text{
+    font-size: 2rem;
+    margin: 10px 0 3px 0;
+    padding: 0;
+  }
+  .page-title-sub-text{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    color: #01913E;
+    padding-bottom: 10px;
+  }
+  /* Awkum logo Design        */
+  .awkum-logo-img{
+    max-width: 80px;
+    margin: 10px 0;
+    position: absolute;
+    right: 0;
+    padding: 0;
+  }
+  .navigaion-bar{
+     background-color: #E6E6E6;
+     position: relative;
+     }
+    .navigaion-bar ul li a{
+      text-align: center;
+      width: 768px;
+      margin-left: auto;
+      font-size:1.2rem;
+      color: black;
+    }
+    .navigaion-bar ul li a:hover{
+      color: #E6E6E6;
+      background-color:#9B1516;
+
+    }
+    .nav-btn{
+      position: absolute;
+      top:-80px;
+      left: 10px;
+    }
+    .toggle-icon{
+      width: 64px;
+    }
+}
+@media screen and (max-width:568px) and (min-width:320px){
+  .page-title{
+    padding-top: 0;
+  }
+  .page-title-text{
+    font-size: 1.5rem;
+    margin: 10px 0 3px 0;
+    padding: 0;
+  }
+  .page-title-sub-text{
+    font-size: 1rem;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    color: #01913E;
+    padding-bottom: 10px;
+  }
+  /* Awkum logo Design        */
+  .awkum-logo-img{
+    max-width: 70px;
+    margin: 5px 0;
+    position: absolute;
+    right: 0;
+    padding-top: 0;
+  }
+  .navigaion-bar{
+     background-color: #E6E6E6;
+     position: relative;
+
+     }
+    .navigaion-bar ul li a{
+      text-align: center;
+      width: 568px;
+      margin-left: auto;
+      font-size:0.9rem;
+      color: black;
+    }
+    .navigaion-bar ul li a:hover{
+      color: #E6E6E6;
+      background-color:#9B1516;
+
+    }
+    .nav-btn{
+      position: absolute;
+      top:-70px;
+      left: 10px;
+    }
+    .toggle-icon{
+      width: 54px;
+    }
+}
+@media screen and (max-width:414px) and (min-width:375px)
+{
+  .page-title{
+        text-align: center;
+        padding-top: 0;
+  }
+  .page-title-text{
+    font-size: 1.2rem;
+    margin: 10px 0 3px 0;
+    padding: 0;
+  }
+  .page-title-sub-text{
+    text-align: center;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    color: #01913E;
+    padding-bottom: 10px;
+  }
+  /* Awkum logo Design        */
+.awkum-logo-img{
+    max-width: 54px;
+    margin: 5px 0;
+    position: absolute;
+    right: 0;
+    padding-top: 0;
+}
+  .navigaion-bar{
+     background-color: #E6E6E6;
+     position: relative;
+
+     }
+    .navigaion-bar ul li a{
+      text-align: center;
+      width: 414px;
+      margin-left: auto;
+      font-size:0.9rem;
+      color: black;
+    }
+    .navigaion-bar ul li a:hover{
+      color: #E6E6E6;
+      background-color:#9B1516;
+
+    }
+    .nav-btn{
+      position: absolute;
+      top:-60px;
+      left: 5px;
+    }
+    .toggle-icon{
+      width: 40px;
+    }
+    .faculty-title{
+      padding:20px 0;
+    }
+    .faculty-title-heading{
+      font-size: 1.2rem;
+    }
+    .faculty-img{
+      width: 60px;
+    }
+    .card-title{
+      font-size: 0.7rem;
+      margin: 1px;
+    }
+    .card-text{
+    font-size: 0.5rem;
+    }
+    .department-brief-title{
+      padding:0;
+    }
+    .department-brief-heading{
+      font-size: 1.2rem;
+    }
+    .department-brief-paraghraph{
+      font-size: 0.7rem;
+    }
+    .department-courses-heading{
+      font-size: 1rem;
+    }
+    .department-courses-subheading{
+      font-size: 0.7rem;
+    }
+    .department-careers-heading{
+      text-align: center;
+      font-size: 1rem;
+    }
+    .department-careers-subheading{
+      font-size: 0.7rem;
+    }
+    /* cs careers page*/
+    /* Heading text (Student information) */
+.student-text-h1{
+font-family: 'Merienda One', cursive;
+font-size: 1.6rem;
+margin: 15px 0px 10px 0px;
+}
+    /* button Section  */
+#button-section{
+  padding:0px 0px 0px 0px;
+}
+/* botton of  back and submit both in this  */
+.btn-back{
+padding:0px;
+margin: 0px;
+}
+/* Button  target for margin */
+.btn-back button{
+margin-bottom: 10px;
+margin-left: 0px;
+}
+    /* only back button target */
+.btn-back-link a{
+padding: 0px 15px 0px 20px;
+margin-left: 10px;
+}
+/* student information sheet title */
+.name-section-text{
+  font-size: 1rem;
+}
+}
+@media screen and (max-width:375px) and (min-width:320px)
+{
+  .page-title{
+        text-align: center;
+        padding-top: 0;
+  }
+  .page-title-text{
+    font-size: 1rem;
+    margin: 10px 0 3px 0;
+    padding: 0;
+  }
+  .page-title-sub-text{
+    text-align: center;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    color: #01913E;
+    padding-bottom: 10px;
+  }
+  /* Awkum logo Design        */
+.awkum-logo-img{
+    max-width: 54px;
+    margin: 5px 0;
+    position: absolute;
+    right: 0;
+    padding-top: 0;
+}
+  .navigaion-bar{
+     background-color: #E6E6E6;
+     position: relative;
+     }
+    .navigaion-bar ul li a{
+      text-align: center;
+      width: 375px;
+      margin-left: auto;
+      font-size:0.9rem;
+      color: black;
+    }
+    .navigaion-bar ul li a:hover{
+      color: #E6E6E6;
+      background-color:#9B1516;
+
+    }
+    .nav-btn{
+      position: absolute;
+      top:-60px;
+      left: 5px;
+    }
+    .toggle-icon{
+      width: 40px;
+    }
+    .faculty-title{
+      padding: 20px 0;
+    }
+    .faculty-title-heading{
+      font-size: 1.2rem;
+    }
+    .faculty-img{
+      width: 60px;
+    }
+    .card-title{
+      font-size: 0.7rem;
+      margin: 1px;
+    }
+    .card-text{
+    font-size: 0.5rem;
+    }
+    ..department-brief-title{
+      padding: 0;
+    }
+    .department-brief-heading{
+      font-size: 1.2rem;
+    }
+    .department-brief-paraghraph{
+      font-size: 0.7rem;
+    }
+    .department-courses-heading{
+      font-size: 1rem;
+    }
+    .department-courses-subheading{
+      font-size: 0.7rem;
+    }
+    .department-careers-heading{
+      text-align: center;
+      font-size: 1rem;
+    }
+    .department-careers-subheading{
+      font-size: 0.7rem;
+    }
+    /* cs careers page */
+    /* Heading text (Student information) */
+.student-text-h1{
+font-family: 'Merienda One', cursive;
+font-size: 1.6rem;
+margin: 15px 0px 10px 0px;
+}
+  /* button Section  */
+#button-section{
+padding:0px 0px 0px 0px;
+}
+/* botton of  back and submit both in this  */
+.btn-back{
+padding:0px;
+margin: 0px;
+}
+/* Button  target for margin */
+.btn-back button{
+margin-bottom: 10px;
+margin-left: 0px;
+}
+  /* only back button target */
+.btn-back-link a{
+padding: 0px 10px 0px 15px;
+margin-left: 10px;
+}
+/* student information sheet title */
+.name-section-text{
+  font-size: 0.9rem;
+}
+}
+@media screen and (max-width:320px) and (min-width:194px)
+{
+  .page-title{
+        text-align: left;
+        padding-top: 0;
+  }
+  .page-title-text{
+    font-size: 0.9rem;
+    margin: 10px 0 3px 0;
+    padding: 0;
+  }
+  .page-title-sub-text{
+    text-align: center;
+    font-size: 0.6rem;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    color: #01913E;
+    padding-bottom: 10px;
+  }
+  /* Awkum logo Design        */
+.awkum-logo-img{
+    max-width: 54px;
+    margin: 5px 0;
+    position: absolute;
+    right: 0;
+    padding-top: 0;
+}
+  .navigaion-bar{
+     background-color: #E6E6E6;
+     position: relative;
+     }
+    .navigaion-bar ul li a{
+      text-align: center;
+      width: 320px;
+      margin-left: auto;
+      font-size:0.9rem;
+      color: black;
+    }
+    .navigaion-bar ul li a:hover{
+      color: #E6E6E6;
+      background-color:#9B1516;
+
+    }
+    .nav-btn{
+      position: absolute;
+      top:-50px;
+      left: 5px;
+    }
+    .toggle-icon{
+      width: 32px;
+    }
+    .faculty-title{
+      padding: 20px 0;
+    }
+    .faculty-title-heading{
+      font-size: 1rem;
+    }
+    .faculty-img{
+      width: 50px;
+    }
+    .card-title{
+      font-size: 0.5rem;
+      margin: 1px;
+    }
+    .card-text{
+    font-size: 0.3rem;
+    }
+    .department-brief{
+      padding: 0;
+    }
+    .department-brief-heading{
+      font-size: 1rem;
+    }
+    .department-brief-paraghraph{
+      font-size: 0.7rem;
+    }
+    .department-courses-heading{
+      font-size: 1rem;
+    }
+    .department-courses-subheading{
+      font-size: 0.7rem;
+    }
+    .department-careers-heading{
+      text-align: center;
+      font-size: 1rem;
+    }
+    .department-careers-subheading{
+      font-size: 0.7rem;
+    }
+    /* cs careers page */
+    /* Heading text (Student information) */
+.student-text-h1{
+font-family: 'Merienda One', cursive;
+font-size: 1.6rem;
+margin: 15px 0px 10px 0px;
+}
+  /* button Section  */
+#button-section{
+padding:0px 0px 0px 0px;
+}
+/* botton of  back and submit both in this  */
+.btn-back{
+padding:0px;
+margin: 0px;
+}
+/* Button  target for margin */
+.btn-back button{
+margin-bottom: 10px;
+margin-left: 0px;
+}
+  /* only back button target */
+.btn-back-link a{
+padding: 0px 5px 0px 5px;
+margin-left: 10px;
+ }
+ /* student information sheet */
+ /* heading title */
+.name-section-text{
+  font-size: 0.8rem;
+  margin-bottom: 0px;
+
+}
+/*	css setting of the button */
+.option button{
+width: 130px;
+height: 40px;
+border-radius: 10px;
+}
+.option button a{
+  text-decoration: none;
+  color: white;
+  font-size: .9rem;
+}
+}

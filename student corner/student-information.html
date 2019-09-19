@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merienda+One|Ubuntu:300,300i,400,400i,500&display=swap" rel="stylesheet">
+
+    <title>CS Student Guide Line</title>
+  </head>
+  <body>
+    <!-- header Section       -->
+<section id="header-section" class="row">
+                  <!-- awkum logo  -->
+                     <div class="col-lg-1 col-md-5 col-sm-5 col-5 awkum-logo">
+                            <img class="awkum-logo-img" src="../images/logo.png" alt="logo">
+                     </div>
+                     <!-- page-title      -->
+                     <div class="col-lg-11 col-md-7 col-sm-7 col-7 page-title">
+                        <h1 class="page-title-text">COMPUTER SCIENCE</h1>
+                        <h3 class="page-title-sub-text">Students Guide Line</h3>
+                     </div>
+                     <!-- Navigation Bar -->
+                     <nav class="navigaion-bar col-lg-12 col-md-2  col-sm-3 col-2 navbar navbar-expand-lg">
+                       <button type="button" class="navbar-toggler nav-btn" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aira-expanded="false" aria-label="Toggle navigation">
+                          <img class="toggle-icon" src="../images/menu.png" alt="manu" >
+                       </button>
+                       <div class="collapse navbar-collapse" id="navigation">
+                         <ul class="navbar-nav m-auto">
+                           <li class="nav-item active">
+                             <a href="../index.html" class="nav-link">Home</a>
+                           </li>
+                           <li class="nav-item">
+                             <a href="../index.html#faculty-members" class="nav-link">Faculty</a>
+                           </li>
+                           <li class="nav-item">
+                             <a href="../index.html#department-brief" class="nav-link">CS Careers</a>
+                           </li>
+                           <li class="nav-item">
+                             <a href="student-information.html" class="nav-link">Student Corner</a>
+                           </li>
+                           <li class="nav-item">
+                             <a href="#" class="nav-link">Developers</a>
+                           </li>
+                           <li class="nav-item">
+                             <a href="../contact.html" class="nav-link">Contact</a>
+                           </li>
+                         </ul>
+                       </div>
+                     </nav>
+
+</section>
+  <!-- student information form -->
+<section id="student-information" class="row">
+   <div class="student-information-text col-lg-12">
+     <h1 class="student-text-h1">Student Information</h1>
+    </div>
+    <div class="col-lg-4 m-auto">
+      <form id="student-form" class="was-validated" action="message.html"  method="post" onsubmit="getName(); changeFormAction();">
+       <div class="form-group">
+         <input id="userInput" type="text" class="form-control is-invalid" placeholder="Enter Full Name" required>
+     </div>
+      <div class="form-group">
+        <select id="dropDown1" class="form-control is-invalid" name="dropDown1" onchange="ChangeDropContent(this, 'dropDown2');" required>
+          <option value="">Select Program</option>
+          <option value="">Bsc</option>
+          <option value="">Msc</option>
+          <option value="">M.Phil</option>
+          <option value="">Ph.D</option>
+        </select>
+        </div>
+        <div class="form-group">
+          <select id="dropDown2" class="form-control is-invalid" name="dropDown2" required disabled>
+          <option value="" >Select Discipline</option>
+         </select>
+        </div>
+                    <div class="form-group">
+                      <select id="dropDown3" class="form-control is-invalid" name="semester" required>
+                        <option value="">Select Semester</option>
+                        <option value="1st">1st</option>
+                        <option value="2nd">2nd</option>
+                        <option value="3rd">3rd</option>
+                        <option value="4th">4th</option>
+                        <option value="5th">5th</option>
+                        <option value="6th">6th</option>
+                        <option value="7th">7th</option>
+                        <option value="8th">8th</option>
+                      </select>
+                    </div>
+                                        <!-- /* botton submit -->
+                    <div class="form-group">
+                      <button  class="btn btn-submit btn-lg btn-block" type="submit" value="submit">Submit</button>
+                    </div>
+                 </form>
+               </div>
+</section>
+
+                                  <!-- footer section  -->
+                                  <section class="row" id="footer">
+                                    <div class="col-lg-12 copyright-text">
+                                     <p class="copyright-paraghraph">© 2019 <a class="our-link" target="_blank" href="http://softunic.co">Softunic</a>. All rights reserved.</p>
+                                    </div>
+                                  </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../js/index.js" charset="utf-8"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

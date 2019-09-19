@@ -1,0 +1,2 @@
+font-family: 'Merienda One', cursive
+font-family: 'Ubuntu', sans-serif
